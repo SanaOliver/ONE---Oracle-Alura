@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando IMC</title>
+</head>
+<body>
+    <h2>Conheça meu portifólio <a href="https://github.com/SanaOliver">aqui</a>!</h2>   
+    <script>
+        function br() { 
+            document.write('<br>');
+
+        }
+        function mostra(frase) {
+            document.write(frase);
+            br();
+        }
+        
+        function calculaImc(peso, altura) {
+            return peso / (altura* altura);
+        }
+        var nome = prompt("Informe o seu nome");
+        var alturaInformada = prompt("Informe sua altura");
+        var pesoInformado = prompt("Informe seu peso");
+
+        document.write("O imc de "+nome+" é:");
+        document.write(Math.round(calculaImc(pesoInformado, alturaInformada)));
+        br();
+        document.write(calculaImc(95, 1.69).toFixed(2));
+
+    </script>
+</body>
+</html>
