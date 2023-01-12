@@ -21,9 +21,8 @@ function mostra(frase) {
     document.write(frase);
     pulaLinha();
 }
-var vitorias = prompt("Entre com o numero de vitorias:");
-var empates = prompt("Entre com o número de empates.");
-empates = empates *1;
+var vitorias = parseInt(prompt("Entre com o numero de vitorias:"));
+var empates = parseInt(prompt("Entre com o número de empates."));
 var pontos = vitorias*3 + empates;
 mostra ("Os pontos do seu time é:" + pontos);
 </script>
