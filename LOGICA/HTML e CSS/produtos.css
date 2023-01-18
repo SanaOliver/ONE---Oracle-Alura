@@ -1,0 +1,17 @@
+header{
+	background: #BBBBBB;
+}
+nav li{
+	display: inline;
+	margin: 0 0 0 15; /* mudando o espaçamento entre os itens com as margins externas top, direita, baixo, esquerda*/
+}
+
+nav a {
+	text-transform: uppercase ; /*transformar o texto em maiusculo*/
+	volor: #000000;
+	font-weight: bold; /*negrito*/
+	font-size: 22px;
+	text-decoration: none; /*tirando o sublinhado*/
+
+
+}
